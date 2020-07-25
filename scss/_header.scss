@@ -25,6 +25,15 @@
 	&-links {
 		a {
 			font-size: $font-small;
+			color: $grayishBlue;
+
+			&:not(:last-child) {
+				margin-right: 32px;
+			}
 		}
+	}
+	&-Btn {
+		font-size: $font-small;
+		color: $white;
 	}
 }
